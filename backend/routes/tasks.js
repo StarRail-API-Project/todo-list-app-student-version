@@ -1,19 +1,24 @@
 const express = require("express");
 const router = express.Router();
-// There is a bug in line 4 you need to fix it
-const taskModel = require("../model/taskModel");
+// fixed path 
+const taskModel = require("../models/taskModel");
 
-//Write a comment describing the purpose of this route
+/*Handles a GET request to top of main 
+when data is received it is returned as a JSON response 
+*/
 router.get("/", async (req, res) => {
   const tasks = await taskModel.getTasks();
   res.json(tasks);
 });
 
-// Write a comment describing the purpose of this route
+/*Handles a POST request to top of main 
+after the task is successfully added it sends back a newly created task object
+with a 201 status code.
+*/
 router.post("/", async (req, res) => {
   //there is a bug in line 15 you need to fix
   const { name, description } = req.body;
-  const task = await taskModel.addTask(title, description);
+  const task = await taskModel.addTask(name, description);
   res.status(201).json(task);
 });
 
