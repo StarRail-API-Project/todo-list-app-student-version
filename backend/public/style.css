@@ -27,7 +27,7 @@ li {
 }
 
 .color-change-button {
-  background-color: black; 
+  background-color: beige; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -41,3 +41,6 @@ li {
   font-family: 'PT Sans', 
 }
 
+body.black-background {
+  background-color: black;
+}
