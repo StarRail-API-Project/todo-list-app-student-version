@@ -2,8 +2,6 @@
 
 body {
   background-color: coral;
-  font-family: sans-serif;
-  background: #f5f5f5;
   padding: 20px;
   font-family: 'PT Sans'
 }
@@ -27,3 +25,19 @@ li {
   background: #eee;
   border-radius: 4px;
 }
+
+.color-change-button {
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0; 
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'PT Sans', 
+}
+
