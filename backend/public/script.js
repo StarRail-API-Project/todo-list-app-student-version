@@ -1,3 +1,11 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const changeBgButton = document.getElementById('colour_button');
+    changeBgButton.addEventListener('click', function() {
+        document.body.classList.toggle('black-background');
+    });
+});
+
+
 document.getElementById("taskForm").addEventListener("submit", async (e) => {
   e.preventDefault();
   const title = document.getElementById("title").value;
