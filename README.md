@@ -9,5 +9,7 @@ This is a task organizer, bugs were fixed and changes were made just as the task
 * John Murphy:Teacher Inspector
 # Picture of website as follows:
 
+(https://github.com/StarRail-API-Project/todo-list-app-student-version/blob/main/Screenshot.png)
 
 # Useful links as follows:
+* https://todo-list-app-student-version-7zaf.onrender.com/static
