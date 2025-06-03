@@ -6,7 +6,7 @@ This is a task organizer, bugs were fixed and changes were made just as the task
 * Josue:Documentation
 * Daniel:Spell Checking
 * Brain:Quality Control
-
+* John Murphy:Teacher Inspector
 # Picture of website as follows:
 
 
